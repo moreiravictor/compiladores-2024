@@ -1,0 +1,28 @@
+body {
+    color: white;
+    font-size: 15px;
+}
+#exec {
+    border: grey 1px;
+    padding: 1rem;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+#exec:hover {
+    background-color: #e7e7e7;
+}
+
+#error {
+    color: #852d2d;
+    font-weight: bold;
+    height: 50px;
+    width: 100vw;
+}
+
+#warnings {
+    color: #5062ec;
+    font-weight: bold;
+    font-family: monospace;
+}
